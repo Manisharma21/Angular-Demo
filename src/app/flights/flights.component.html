@@ -1,0 +1,9 @@
+<p>
+  This Should work as expected...
+</p>
+<button class="btn btn-success" (click)="getData()">Click To Get Data</button>
+<div *ngFor="let flight of flights">
+<div>User Id : {{flight.id}}</div>
+<div>Title : {{flight.title}}</div>
+<div>Body : {{flight.body}}</div>
+</div>
